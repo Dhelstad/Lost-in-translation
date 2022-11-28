@@ -1,0 +1,106 @@
+:root {
+  --yellow: rgb(211, 211, 35);
+
+  background-color: yellow;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+
+  background-color: yellow;
+}
+
+header {
+  height: 4em;
+  display: grid;
+  background-color: yellow;
+
+  h1 {
+    text-align: center;
+    margin-right: auto;
+    font-size: 4em;
+    font-family: fantasy;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  justify-content: center;
+  margin: 1em;
+  h1 {
+    font-size: large;
+    font-family: fantasy;
+  }
+  .btnTranslate {
+    background-color: #854442;
+  }
+  .btnprofile {
+    background-color: #854442;
+    margin-left: 2em;
+  }
+}
+
+nav {
+  background-color: #e7cbb0;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.ul-nav {
+  text-align: right;
+}
+
+.ul-list {
+  list-style: none;
+  margin-right: 40px;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+}
+
+li {
+  margin: 5px;
+}
+.welcome {
+  text-align: center;
+  font-family: fantasy;
+  font-size: x-large;
+}
+
+.profilebtn {
+  display: flex;
+  margin: 1em;
+  justify-content: center;
+  .btnClearTranslations,
+  .btnLogout,
+  .btnTranslation {
+    padding: 4px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin: auto;
+    text-align: center;
+    background-color: #854442;
+    color: white;
+  }
+}
+.translationhistory {
+  display: inline;
+  margin-left: 2em;
+  h4 {
+    font-family: fantasy;
+    font-size: x-large;
+  }
+}
+.profile {
+  font-family: fantasy;
+  margin-left: 0em;
+  margin-bottom: 3em;
+  font-size: xx-large;
+}

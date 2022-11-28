@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# images
+
+icons made by [freepik](https://www.freepik.com) from [www.flaticon.com]
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+4598tuihfwp4985trgyehio

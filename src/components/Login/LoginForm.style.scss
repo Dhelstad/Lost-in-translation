@@ -1,0 +1,51 @@
+main {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  margin-top: 3em;
+
+  background-color: yellow;
+}
+
+.login {
+  margin-inline: 3em;
+  height: 25em;
+  display: grid;
+  grid-template-rows: 5em 1fr;
+
+  h2 {
+    color: black;
+    text-align: center;
+    background-color: yellow;
+    font-size: 2em;
+    font-family: fantasy;
+  }
+
+  form {
+    background-color: rgb(23, 163, 23);
+    height: 50%;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr 1fr;
+
+    fieldset {
+      border: none;
+      margin: auto;
+
+      label {
+        color: var(--yellow);
+      }
+
+      input {
+        border-radius: 8px;
+      }
+    }
+
+    button {
+      padding: 5px;
+      border-radius: 8px;
+      width: 50%;
+      margin: auto;
+    }
+  }
+}

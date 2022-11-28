@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./wiews/Login";
+import Orders from "./wiews/Orders";
+import Profile from "./wiews/Profile";
+import "animate.css";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <BrowserRouter>
+      <Navbar />
+      <header>
+        <h1 className="animate__animated animate__bounce">
+          Lost in translation
+        </h1>
       </header>
-    </div>
+
+      <main>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/orders" element={<Orders />} />
+          <Route path="/profile" element={<Profile />} />
+        </Routes>
+      </main>
+    </BrowserRouter>
   );
 }
 
