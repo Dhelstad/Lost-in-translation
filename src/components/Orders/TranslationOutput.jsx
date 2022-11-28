@@ -13,7 +13,7 @@ const TranslationOutput = () => {
   });
 
   return (
-    <section>
+    <section class="animate__animated animate__bounce">
       <h1>Translated text</h1>
       {availableLetters}
     </section>

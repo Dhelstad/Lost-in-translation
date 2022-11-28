@@ -48,9 +48,6 @@ const TranslationsForm = () => {
     <div className="container">
       <h1 className="translation">Translation</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
-        {/* <label htmlFor="translation-text" className="translationText">
-          Translated Text
-        </label> */}
         <input
           type="text"
           className="translationInput"
